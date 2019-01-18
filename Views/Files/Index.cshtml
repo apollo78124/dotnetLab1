@@ -8,6 +8,6 @@
     <h2>Files</h2>
     <ul>
         @foreach (var p in this.Model) {
-        <li>@Html.ActionLink(p, "Contents", "Files", new { id = p }) @p</li>
+        <li>@Html.ActionLink(p, "Contents", "Files", new { id = p })</li>
         }
     </ul>
